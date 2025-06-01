@@ -20,8 +20,16 @@ if (absDividend == absDivisor)
 int couter = 0;
 while (absDividend - absDivisor >= 0)
 {
+    if (absDividend - absDivisor - absDivisor >= 0)
+{
+    absDividend -= absDivisor + absDivisor;
+    couter += 2;
+}
+else
+{
     absDividend -= absDivisor;
     couter++;
+}
 }
 return isNegative ? -couter : couter;
     }
