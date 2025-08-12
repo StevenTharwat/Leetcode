@@ -1,29 +1,28 @@
 public class Solution {
  public string ReverseWords(string s)
-{
-    if (string.IsNullOrWhiteSpace(s))
-    {
-        return string.Empty;
-    }
+        {
+            if (string.IsNullOrWhiteSpace(s))
+            {
+                return string.Empty;
+            }
 
-    string[] words = s.Split(' ');
-    if (words.Length == 1)
-    {
-        return reverse(s);
-    }
+            char[] chars = ( s.Trim() + " " ).ToCharArray();
+            int start = 0;
+            int count = 0;
 
-    StringBuilder stringBuilder = new();
-    foreach (var word in words)
-    {
-        stringBuilder.Append(reverse(word) + " ");
-    }
-    return stringBuilder.ToString().Trim();
-}
-
- private string reverse(string word)
-{
-    char[] chars = word.ToCharArray();
-    Array.Reverse(chars);
-    return new string(chars);
-}
+            for (int i = 0 ; i < chars.Length ; i++)
+            {
+                if (chars[i] == ' ')
+                {
+                    Array.Reverse(chars, start, count);
+                    start = i + 1;
+                    count = 0;
+                }
+                else
+                {
+                    count++;
+                }
+            }
+            return new string(chars).Trim();
+        }
 }
