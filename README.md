@@ -33,8 +33,13 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/StevenTharwat/Leetcode/tree/master/0029-divide-two-integers) |
+| [0338-counting-bits](https://github.com/StevenTharwat/Leetcode/tree/master/0338-counting-bits) |
 ## Two Pointers
 |  |
 | ------- |
 | [0557-reverse-words-in-a-string-iii](https://github.com/StevenTharwat/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/StevenTharwat/Leetcode/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
