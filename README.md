@@ -13,6 +13,7 @@
 | [0014-longest-common-prefix](https://github.com/StevenTharwat/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/StevenTharwat/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/StevenTharwat/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [3110-score-of-a-string](https://github.com/StevenTharwat/Leetcode/tree/master/3110-score-of-a-string) |
 | [3194-find-words-containing-character](https://github.com/StevenTharwat/Leetcode/tree/master/3194-find-words-containing-character) |
 ## Simulation
 |  |
