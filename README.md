@@ -10,6 +10,7 @@
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/StevenTharwat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/StevenTharwat/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/StevenTharwat/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [1108-defanging-an-ip-address](https://github.com/StevenTharwat/Leetcode/tree/master/1108-defanging-an-ip-address) |
@@ -42,4 +43,12 @@
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/StevenTharwat/Leetcode/tree/master/0338-counting-bits) |
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/StevenTharwat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/StevenTharwat/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
