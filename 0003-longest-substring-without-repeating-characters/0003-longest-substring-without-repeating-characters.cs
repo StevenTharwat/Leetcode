@@ -1,19 +1,17 @@
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
-        // see the biggest index between 2 dublicate caractre and but the biggest in a variable 
-        // 
-        int max = 0;
-HashSet<char> set = new HashSet<char>();
-for (int i= 0; i < s.Length; i++){
-    for (int j = i ; j < s.Length ; j++)
+        var max = 0;
+var map = new Dictionary<char, int>();
+int left = 0;
+for (int right = 0 ; right < s.Length ; right++)
+{
+    if(map.ContainsKey(s[right]))
     {
-        if (set.Contains(s[j]))
-            break;
-        set.Add(s[j]);
+        left = Math.Max(map[s[right]]+1, left);
     }
-    max = Math.Max(max, set.Count);
-    set.Clear();
+    map[s[right]] = right;
+    max = Math.Max(max, right - left + 1);
 }
- return max;
+return max;
     }
 }
