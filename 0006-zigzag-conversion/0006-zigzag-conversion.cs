@@ -21,6 +21,6 @@ foreach (char c in s)
     else if (currentRow == 0)
         goingDown = true;
 }
-return string.Join("", rows.Select(r => r.ToString()));
+return string.Concat(rows.Select(r => r.ToString()));
     }
 }
